@@ -1,0 +1,32 @@
+.sandwich-button{
+    height: 20px;
+    width: 30px;
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sandwich-button_line {
+    width: 20px;
+    background: #ffffff;
+    height: 1px;
+}
+
+/* TODO separar css do button e do sidebar*/
+.miniMenu{
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    height: 100%;
+    background: #ffffff;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 400px;
+    z-index: 200;
+}
