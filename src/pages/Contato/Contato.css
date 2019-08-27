@@ -1,0 +1,71 @@
+.background {
+    background-color: #000000;
+    color: #2a3032;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    height: 100vh;
+    margin-top: 22px;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    border: 1px solid #2a3032;
+    padding: 50px;
+}
+
+label {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    /* font: 11px/11px Gotham HTF Medium; */
+    letter-spacing: 2px;
+    padding: 13px 27px;
+    text-transform: uppercase;
+    -webkit-transition: box-shadow .2s ease,background-color .2s ease;
+    transition: box-shadow .2s ease,background-color .2s ease;
+    white-space: nowrap;
+    border: 1px solid #2a3032;
+    border-radius: 20px;
+    outline: none;
+}
+
+textarea {
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 2px;
+    padding: 13px 27px;
+    text-transform: uppercase;
+    -webkit-transition: box-shadow .2s ease,background-color .2s ease;
+    transition: box-shadow .2s ease,background-color .2s ease;
+    border: 1px solid #2a3032;
+    border-radius: 20px;
+    height: 100px;
+}
+
+button {
+    background-color: transparent;
+    color: #ed145b;
+    cursor: pointer;
+    letter-spacing: 2px;
+    padding: 13px 27px;
+    text-transform: uppercase;
+    -webkit-transition: box-shadow .2s ease,background-color .2s ease;
+    transition: box-shadow .2s ease,background-color .2s ease;
+    white-space: nowrap;
+    border: 1px solid #ed145b;
+    border-radius: 20px;
+    margin-top: 10px;
+    outline: none;
+}

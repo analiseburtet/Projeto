@@ -1,3 +1,9 @@
+#React Site
+This Project is my portfolio website, and its based on react tutorial.
+Here I am coding some lines in order to learn react and develop some components.
+Feel free to contribute.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

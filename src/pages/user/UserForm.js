@@ -10,6 +10,11 @@ const UserFormFunc = props =>{
     }
     return(
         <form onSubmit={handleSubmit((fields) => submit(fields, submitUserAction))}>
+        <label>*FORM NOT WORKING*
+            <br/> entra em contato comigo via &nbsp;
+            <a target="_blank" href="https://www.linkedin.com/in/analise-burtet-a8040ba1/"> LinkedIn
+            </a> . 
+        </label>
             <label>
                 Nome
             </label>

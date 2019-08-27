@@ -1,5 +1,7 @@
 import Home from './pages/home/Home';
 import User from './pages/user/User'
+import Contato from './pages/Contato/Contato'
+
 
 const routesConfig = [
     {
@@ -10,6 +12,11 @@ const routesConfig = [
     {
         path:"/user",
         component:User,
+        exact: true
+    },
+    {
+        path:"/contato",
+        component:Contato,
         exact: true
     }
 ]
