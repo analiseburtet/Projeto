@@ -5,7 +5,7 @@ import "./Contato.css"
 class Contato extends React.Component {
     render(){
         return(
-        <div className="background">
+        <div className="secondDiv">
              <UserForm></UserForm> 
         </div>
         );

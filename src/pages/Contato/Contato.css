@@ -13,9 +13,12 @@
 form {
     display: flex;
     flex-direction: column;
-    width: 270px;
+    width: 300px;
     border: 1px solid #2a3032;
     padding: 50px;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 30px;
 }
 
 label {
@@ -65,7 +68,7 @@ button {
     transition: box-shadow .2s ease,background-color .2s ease;
     white-space: nowrap;
     border: 1px solid #ed145b;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-top: 10px;
     outline: none;
 }
